@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Playlist Login Form - Free Mobile Website Template from Mobifreaks.com</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+	<script src="jquery/jquery-latest.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="wrap">
+    <div class="header">
+        <div class="logo">
+            <a href="index.html"><img src="1-Normal-Home-icon.png" alt="Home" height="51" /></a>
+        </div>
+        <div class="button" id="show">
+            <a href="#">Menu</a>
+        </div>
+        <div class="clear-float"></div>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Openning time</a></li>
+                <li><a href="#">activities Table</a></li>
+                <li><a href="#">Food menu</a></li>
+                <li><a href="#">Albums</a></li>
+                <li><a href="#">Artists</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li>
+                    <ul>
+                        <li><a href="login.html">Log in</a></li>
+                        <li><a href="signup.html">log out</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div id="hide"><div class="bbutton"><a href="#">Close menu</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+      <div class="post">
+            <form action="#">
+           	  <label>Username :</label><br>
+           	  <input type="text" class="text" data-watermark="Input your name">
+           	  <br>
+              <label>Password :</label><br>
+              <input type="password" class="text" data-watermark="Input your tickes number here"></br>
+              <input align="middle" type="submit" value="Log in" class="bbottom">
+              <div class="submit">11</div>
+              </br>
+              <input align="middle" type="submit" value="Forget my password" class="bbottom">
+            </form>
+            <input type="" class="text" data-watermark="Input your name">
+        </div>     
+    </div>
+</div>
+<div class="footer">11</div>
+<script type="text/javascript">
+	$('.nav').hide();
+	//I is a bool to check the menu is hiden or show
+	var I = true
+	$('#show').click(function (){
+		if (I == true)
+		{
+			$('.nav').show();
+			I=false;
+		}else
+		{
+			$('.nav').hide();
+			I=true;
+		}
+	});
+	$('#hide').click(function (){
+		$('.nav').hide();
+	});
+ //water-marke-text
+ $(document).ready(function () {
+    $(":input[data-watermark]").each(function () {
+        $(this).val($(this).attr("data-watermark"));
+        $(this).bind('focus', function () {
+            if ($(this).val() == $(this).attr("data-watermark")) $(this).val('');
+        });
+        $(this).bind('blur', function () {
+            if ($(this).val() == '') $(this).val($(this).attr("data-watermark"));
+            $(this).css('color','#a8a8a8');
+        });
+    });
+});
+ 
+</script>
+</body>
+</html>

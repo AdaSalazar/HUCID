@@ -1,0 +1,110 @@
+#topNavWrapper {
+text-align: left;
+height:65px;
+margin: 0px auto;
+background:#036;
+z-index:100;
+_position: relative ;
+_top:0px;
+}
+#header{
+	background:#fff;
+	background:#FBFBFB;
+	background:-moz-linear-gradient(top, #FBFBFB 0%, #DADADA 100%);
+	/* FF3.6+ */
+
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #FBFBFB), color-stop(100%, #DADADA));
+	/* Chrome,Safari4+ */
+
+	background:-webkit-linear-gradient(top, #FBFBFB 0%, #DADADA 100%);
+	/* Chrome10+,Safari5.1+ */
+
+	background:-o-linear-gradient(top, #FBFBFB 0%, #DADADA 100%);
+	/* Opera11.10+ */
+
+	background:-ms-linear-gradient(top, #FBFBFB 0%, #DADADA 100%);
+	/* IE10+ */
+
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#FBFBFB', endColorstr='#DADADA',GradientType=0 );
+	background:linear-gradient(top, #FBFBFB 0%, #DADADA 100%);
+	/* W3C */
+
+	-webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.6);
+	box-shadow:0 0 10px rgba(0, 0, 0, 0.6);
+	position:relative;
+    height:65px;
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+}
+
+#header ul{
+}
+
+#header ul li{
+	float:left;
+}
+#logo{
+	width:42;
+	padding:2px;
+	text-align:center;
+	display:inline-table;
+	float:left;}
+#logo:hover{
+	background:#999;
+}
+#tile{}
+#rightnav{float:right;}
+.nav{ background: rgba( #999,0.80);
+	text-align:center;
+
+	padding:3px 3px 5px 10px;
+	text-decoration:none;
+	list-style:none;
+	list-style-type:none;
+
+}
+.nav ul{
+		display:inline;
+	background:rgba(204,204,204,0.20);
+	-moz-border-radius:0.8em;
+	text-decoration:none;
+	-webkit-border-radius:0.8em;
+	border-radius:0.8em;
+	-moz-box-shadow:0px 0px 5px #dddddd;
+	-webkit-box-shadow:0px 0px 5px #dddddd;
+	box-shadow:0px 0px 5px #dddddd;
+}
+.nav li{
+	list-style:none;
+	list-style-type:none;
+	height:30px;
+	line-height:22px;
+	text-align:left;
+ 
+	text-transform:capitalize;
+	display:block;
+	border-bottom:1px solid #dddddd;
+	-moz-border-radius:0.8em;
+	-webkit-border-radius:0.8em;
+	border-radius:0.8em;
+	-moz-box-shadow:0px 0px 5px #dddddd;
+	-webkit-box-shadow:0px 0px 5px #dddddd;
+	box-shadow:0px 0px 5px #dddddd;
+}
+.nav li:last-child{
+	border:none;
+}
+.nav a{
+	line-height:30px;
+	display:block;
+	color:#5d5d5d;
+	list-style:none;	padding-left:33px;	
+}
+.navpp{
+
+	text-align: left;
+}
+.nav a:hover{ background:rgba(0,153,155,0.10);
+}

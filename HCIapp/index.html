@@ -1,0 +1,116 @@
+ 
+<html>
+<head>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>HCI test app</title>
+    <script src="mainbody/jquery-latest.js" type="text/javascript"></script>
+<link href="mainbody/body.css" rel="stylesheet" type="text/css">
+<link href="mainbody/navigation.css" rel="stylesheet" type="text/css">
+<link href="components/buttons.css" rel="stylesheet" type="text/css">
+<link href="components/post.css" rel="stylesheet" type="text/css">
+<link href="components/pictures.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div id="warp">
+	<div id="header">
+    <div id="logo"><img src="images/Add.png" width="30" height="30" alt="home"></div>
+    <div id="rightnav"><table width="0" border="0">
+  <tr>
+    <td><img src="images/Tools.png" width="30" height="30"></td>
+    <td><img src="images/Power Button.png" width="30" height="30"></td>
+  </tr>
+</table>
+	</div>
+    <div class="clear-float"></div>
+    <div class="nav">
+           <ul>
+                <li style="background:url(images/Power%20Button.png) no-repeat"><a href="index.html"><div class="navpp">Home</div></a></li>
+                <li><a href="#">Openning time</a></li>
+                <li><a href="#">activities Table</a></li>
+                <li><a href="#">Food menu</a></li>
+                <li><a href="#">My plan</a></li
+				><li><a href="#">Log in</a></li>
+           </ul>
+            </div>
+    </div><!--header-->
+  <div id="contianer" >
+    
+    <div class="post">
+      <form action="#">
+        <p>
+                <label>Username :</label>
+          <br>
+                
+                <input type="text" class="text" data-watermark="Input your name">
+                <br></br><br>
+                <label>Password :</label>
+                <br>
+                <input type="password" class="text" data-watermark="Input"></br><br>
+      <br>
+              <a href="plan.html"><div class="bbottom">Login</div></a> 
+        <a href="home.html"><div class="buttom_g">Login</div></a> 
+        <div class="bbottom">C</div></a>
+            </form>
+            </div><!--post-->
+            
+  </div><!--container-->
+	<div id="footer">
+    </div><!--footer-->
+</div><!--warp-->
+ 
+
+
+<script type="text/javascript">
+	$('.nav').hide();
+	//I is a bool to check the menu is hiden or show
+	var I = true
+	$('#logo').click(function (){
+		if (I == true)
+		{
+			$('.nav').show();
+			I=false;
+		}else
+		{
+			$('.nav').hide();
+			I=true;
+		}
+	});
+	$('#hide').click(function (){
+		$('.nav').hide();
+	});
+ //water-marke-text
+ $(document).ready(function () {
+    $(":input[data-watermark]").each(function () {
+        $(this).val($(this).attr("data-watermark"));
+        $(this).bind('focus', function () {
+            if ($(this).val() == $(this).attr("data-watermark")) $(this).val('');
+        });
+        $(this).bind('blur', function () {
+            if ($(this).val() == '') $(this).val($(this).attr("data-watermark"));
+            $(this).css('color','#a8a8a8');
+        });
+    });
+});
+ 
+ 
+ //
+ 
+  $(document).ready(function () {
+    $(":input[data-watermark]").each(function () {
+        $(this).val($(this).attr("data-watermark"));
+        $(this).bind('focus', function () {
+            if ($(this).val() == $(this).attr("data-watermark")) $(this).val('');
+        });
+        $(this).bind('blur', function () {
+            if ($(this).val() == '') $(this).val($(this).attr("data-watermark"));
+            $(this).css('color','#a8a8a8');
+        });
+    });
+});
+ 
+</script>
+</body>
+</html>
