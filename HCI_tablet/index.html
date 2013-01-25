@@ -1,0 +1,96 @@
+ 
+<html>
+<head>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>HCI test app</title>
+    <script src="mainbody/jquery-latest.js" type="text/javascript"></script>
+<link href="mainbody/body.css" rel="stylesheet" type="text/css">
+<link href="mainbody/navigation.css" rel="stylesheet" type="text/css">
+<link href="components/buttons.css" rel="stylesheet" type="text/css">
+<link href="components/post.css" rel="stylesheet" type="text/css">
+<link href="components/pictures.css" rel="stylesheet" type="text/css">
+</head>
+
+<body><!--warp-->
+ <div id="warp">
+  <div id="contianer" >
+<table width="100%" >
+  <tr>
+    <td width="55px" height="100%"><div id="leftNavWrapper">
+  <div id="leftnav">
+          <table>
+  <tr>
+    <td> <ul>
+                <li><a href="index.html"><div class="navpp"><img src="images/Add.png" width="50" height="50" alt="home">Home</div></a></li>
+                <li><a href="index.html"><div class="navpp"><img src="images/Add.png" width="50" height="50" alt="home">Openning time</div></a></li>
+                <li><a href="index.html"><div class="navpp"><img src="images/Add.png" width="50" height="50" alt="home">activities Table</div></a></li>
+                <li><a href="index.html"><div class="navpp"><img src="images/Add.png" width="50" height="50" alt="home"><a href="#">Food menu</div></a></li>
+                <li><a href="index.html"><div class="navpp"><img src="images/Add.png" width="50" height="50" alt="home"> plan</div></a></li>
+                <li><a href="index.html"><div class="navpp"><img src="images/Add.png" width="50" height="50" alt="home">Login</div></a></li>
+           </ul></td>
+  </tr>
+</table>
+
+         
+  </div><!--leftnav-->
+  </div></td>
+    <td width="89%">&nbsp;</td>
+  </tr>
+</table>
+
+
+</div></div>
+
+
+<script type="text/javascript">
+	$('.nav').hide();
+	//I is a bool to check the menu is hiden or show
+	var I = true
+	$('#logo').click(function (){
+		if (I == true)
+		{
+			$('.nav').show();
+			I=false;
+		}else
+		{
+			$('.nav').hide();
+			I=true;
+		}
+	});
+	$('#hide').click(function (){
+		$('.nav').hide();
+	});
+ //water-marke-text
+ $(document).ready(function () {
+    $(":input[data-watermark]").each(function () {
+        $(this).val($(this).attr("data-watermark"));
+        $(this).bind('focus', function () {
+            if ($(this).val() == $(this).attr("data-watermark")) $(this).val('');
+        });
+        $(this).bind('blur', function () {
+            if ($(this).val() == '') $(this).val($(this).attr("data-watermark"));
+            $(this).css('color','#a8a8a8');
+        });
+    });
+});
+ 
+ 
+ //
+ 
+  $(document).ready(function () {
+    $(":input[data-watermark]").each(function () {
+        $(this).val($(this).attr("data-watermark"));
+        $(this).bind('focus', function () {
+            if ($(this).val() == $(this).attr("data-watermark")) $(this).val('');
+        });
+        $(this).bind('blur', function () {
+            if ($(this).val() == '') $(this).val($(this).attr("data-watermark"));
+            $(this).css('color','#a8a8a8');
+        });
+    });
+});
+ 
+</script>
+</body>
+</html>
