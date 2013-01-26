@@ -1,0 +1,22 @@
+.s_image{
+	margin:0 3px;
+	height:20px;
+	
+}
+
+.list_img
+{
+	float:right;
+	margin-top:12px;
+	height:141px;
+	width:227px;
+}
+
+.list_img2
+{
+	float:right;
+	margin-top:12px;
+}
+.list_imgmid{
+	padding:7px 0;
+}
