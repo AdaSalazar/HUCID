@@ -1,0 +1,149 @@
+ 
+<html>
+<head>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>HCI test app</title>
+    <script src="mainbody/jquery-latest.js" type="text/javascript"></script>
+<link href="mainbody/body.css" rel="stylesheet" type="text/css">
+<link href="mainbody/navigation.css" rel="stylesheet" type="text/css">
+<link href="components/buttons.css" rel="stylesheet" type="text/css">
+<link href="components/post.css" rel="stylesheet" type="text/css">
+<link href="components/pictures.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div id="warp">
+<div id="topNavWrapper">
+  <div id="header">
+  <ul>
+  <li><img class="logoB clicked"  src="images/icons/logo.png"  alt="home"> 
+
+  </li>
+  
+ <a href="home.html"> <li ><div id="logo" >
+     <img  src="images/icons/home.png"alt="home">
+      home
+    </div></li></a>
+     <a  href="menu.html"> <li>
+       <div id="logo">
+     <img src="images/icons/menu.png" alt="home">
+      menu
+    </div></li></a>
+  <li>
+    <a href="time.html"><div id="logo">
+     <img src="images/icons/opening.png" alt="home">
+      Time
+    </div></a></li>
+  </ul>
+
+    <a href="activity.html"><div id="logo">
+     <img src="images/icons/activity.png"  alt="home">
+      Events
+    </div></a>
+    
+    
+     <div id="rightnav"> 
+     <a href="login.html"><div id="logo">
+     <img src="images/icons/login.png"  alt="home">
+      Login</div>
+    </a></div>
+    <div class="clear-float"></div>
+    
+   
+  </div><!--header-->
+  </div>
+  
+  <div id="contianer" >
+    <div class="weather">
+      <div class="weather_tile"><h2 align="left">Wednesday</h2><span  class="weahter_span">4 july 2012</span></div>
+      <div class="weather_item"> 
+               <div class=" weahter_tt"  ><img class=" s_image" src="images/111/Untitled (2).png"  alt="pcloud" style="float: left"><strong>Partly Cloudy</strong></div> <div class=" weahter_tt"  >Temp:<strong>14℃s</strong></div> <div class=" weahter_tt"  >sunrise:<strong>4.43am</strong> sunset:<strong>10.10pm</strong></div> 
+               
+      </div>
+    </div>
+        <div class="post">
+         <h2 align="center">Shipboard Services</h2>
+    
+				</a>
+			<div id="section">
+				<h4>Medical Center (Deck4) Forward</h4>
+				<h3>9:00am - 11:00am & 4:00pm - 6:00pm</h3>
+				<p>In an emergency only dial 999.</p>
+			</div>
+			<div id="section">	
+				<h4>Reception (Deck 5) Atrium</h4>
+				<h3>Open 24 Hours</h3>
+			</div>
+
+			<div id="section">	
+				<h4>Environmental Policy Statement</h4>
+				<p>Carnival Corporation is an international company providing cruise vacations worldwide. Our core values include preserving the marine environment and in particular the pristine condition of the waters upon which our vessels sail. <br />
+					We are committed to pollution prevention, regulatory compliance and continuous improvement to our environmental management. Our Goal is to be the industry leader for environmental excellence. We will achieve this goal by continuously improving our processes to minimise environmental impact and waste.  If you have any ENVIRONMENTAL concerns about the day to day running of the ship during your cruise, please bring these to the attention of a member of the Ship's Company or our Environmental Compliance Officer. Alternatively, you may contact our Environment Hotline, from a ship's telephone dial extension 30003, from a shore telephoine dial 1-305-406-5863(worldwide), 1-888-290-5105(USA) or via the website: <a href="www.carnivalcompliance.com">www.carnivalcompliance.com </a>. To contact the Vice President/Operating Line Compliance call 1-661-753-2745.
+				</p>
+			</div>
+    </div><!--post-->
+            
+  </div><!--container--><!--footer-->
+</div>
+ 
+<script src='swipe.js'></script>
+<script>
+new Swipe(document.getElementById('slider'));
+new Swipe(document.getElementById('slider2'));
+var slider3 = new Swipe(document.getElementById('slider3'));
+var slider4 = new Swipe(document.getElementById('slider4'));
+</script>
+
+<script type="text/javascript">
+	$('.nav').hide();
+	//I is a bool to check the menu is hiden or show
+	var I = true
+	$('#logo').click(function (){
+		if (I == true)
+		{
+			$('.nav').show();
+			I=false;
+		}else
+		{
+			$('.nav').hide();
+			I=true;
+		}
+	});
+	$('#hide').click(function (){
+		$('.nav').hide();
+	});
+ //water-marke-text
+ $(document).ready(function () {
+    $(":input[data-watermark]").each(function () {
+        $(this).val($(this).attr("data-watermark"));
+        $(this).bind('focus', function () {
+            if ($(this).val() == $(this).attr("data-watermark")) $(this).val('');
+        });
+        $(this).bind('blur', function () {
+            if ($(this).val() == '') $(this).val($(this).attr("data-watermark"));
+            $(this).css('color','#a8a8a8');
+        });
+    });
+});
+ 
+ 
+ //
+ 
+  $(document).ready(function () {
+    $(":input[data-watermark]").each(function () {
+        $(this).val($(this).attr("data-watermark"));
+        $(this).bind('focus', function () {
+            if ($(this).val() == $(this).attr("data-watermark")) $(this).val('');
+        });
+        $(this).bind('blur', function () {
+            if ($(this).val() == '') $(this).val($(this).attr("data-watermark"));
+            $(this).css('color','#a8a8a8');
+        });
+    });
+});
+ 
+</script>
+</body>
+</html>

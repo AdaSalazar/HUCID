@@ -1,0 +1,160 @@
+ 
+<html>
+<head>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Login</title>
+    <script src="js/jquery-latest.js" type="text/javascript"></script>
+    <link href="css/mainbody/body.css" rel="stylesheet" type="text/css">
+    <link href="css/mainbody/navigation.css" rel="stylesheet" type="text/css">
+    <link href="css/components/buttons.css" rel="stylesheet" type="text/css">
+    <link href="css/components/post.css" rel="stylesheet" type="text/css">
+    <link href="css/components/pictures.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div id="warp">
+      <div id="topNavWrapper">  
+        <div id="header">  
+		<!--Top Menu-->	
+          <ul>	
+            <li><a>		
+              <img src="images/icons/logo.png" width="40" height="45" alt="logo">	</a>
+            </li>	
+            <li class="homeNs">
+            <a  href="index.html">
+              <div id="logo">	
+                <img src="images/icons/home.png" width="30" height="30" alt="Home">	Home 	
+              </div></a>
+            </li>	 	
+            <li class="menuNs">
+            <a  href="menu.html">
+              <div id="logo">	
+                <img src="images/icons/menu.png" width="30" height="30" alt="Menu">	Menu 	
+              </div></a>
+            </li>	 	
+            <li class="openingNs">
+            <a  href="opening.html">
+              <div id="logo">	
+                <img src="images/icons/opening.png" width="30" height="30" alt="Opening">	Opening 	
+              </div></a>
+            </li>    	 	
+            <li class="activityNs">
+            <a  href="activity.html">
+              <div id="logo">	
+                <img src="images/icons/activity.png" width="30" height="30" alt="Activity">	Activities 	
+              </div></a>
+            </li>	 	
+            <li class="login">
+            <a  href="login.html">
+              <div id="logo">	
+                <img src="images/icons/login.png" width="30" height="30" alt="Login">	Log in 	
+              </div></a>
+            </li>      
+          </ul>    
+          <div class="clear-float"></div>           
+        </div>
+		<!--header-->  
+     </div>
+		        
+ <div id="contianer" >
+    <div class="weather">
+      <div class="weather_tile"><h2 align="left">Wednesday</h2><span  class="weahter_span">4 july 2012</span></div>
+      <div class="weather_item"> 
+               <div class=" weahter_tt"  ><img class=" s_image" src="images/111/Untitled (2).png"  alt="pcloud" style="float: left"><strong>Partly Cloudy</strong></div> <div class=" weahter_tt"  >Temp:<strong>14℃s</strong></div> <div class=" weahter_tt"  >sunrise:<strong>4.43am</strong> sunset:<strong>10.10pm</strong></div> 
+               
+      </div>
+    </div>
+        <div class="post">
+        
+        <h2 align="center">Login</h2>
+        <br>
+              <!-- Notice! -->
+          <h3><img src="images/supportLine.png" width="80%"> </h3>
+
+          <!--item-->
+          <br>
+              <!-- Notice! -->
+              <form action="#">
+        <p>
+                <label>Username :</label>
+          <br>
+                
+                <input type="text" class="text" data-watermark="Input your name">
+                <br></br><br>
+                <label>Password :</label>
+                <br>
+                <input type="password" class="text" data-watermark="Input"></br><br>
+      <br><table width="100%"  align="center" style=" text-align:center;" border="0">
+  <tr>
+    <td><a href="home.html"><div class="buttom_g">Login</div></a></td>
+  </tr>
+</table>
+
+            
+              </form><!--item-->
+    </div><!--post-->
+            
+  </div><!--container--><!--footer-->
+</div>
+ 
+<script src='swipe.js'></script>
+<script>
+new Swipe(document.getElementById('slider'));
+new Swipe(document.getElementById('slider2'));
+var slider3 = new Swipe(document.getElementById('slider3'));
+var slider4 = new Swipe(document.getElementById('slider4'));
+</script>
+
+<script type="text/javascript">
+	$('.nav').hide();
+	//I is a bool to check the menu is hiden or show
+	var I = true
+	$('#logo').click(function (){
+		if (I == true)
+		{
+			$('.nav').show();
+			I=false;
+		}else
+		{
+			$('.nav').hide();
+			I=true;
+		}
+	});
+	$('#hide').click(function (){
+		$('.nav').hide();
+	});
+ //water-marke-text
+ $(document).ready(function () {
+    $(":input[data-watermark]").each(function () {
+        $(this).val($(this).attr("data-watermark"));
+        $(this).bind('focus', function () {
+            if ($(this).val() == $(this).attr("data-watermark")) $(this).val('');
+        });
+        $(this).bind('blur', function () {
+            if ($(this).val() == '') $(this).val($(this).attr("data-watermark"));
+            $(this).css('color','#a8a8a8');
+        });
+    });
+});
+ 
+ 
+ //
+ 
+  $(document).ready(function () {
+    $(":input[data-watermark]").each(function () {
+        $(this).val($(this).attr("data-watermark"));
+        $(this).bind('focus', function () {
+            if ($(this).val() == $(this).attr("data-watermark")) $(this).val('');
+        });
+        $(this).bind('blur', function () {
+            if ($(this).val() == '') $(this).val($(this).attr("data-watermark"));
+            $(this).css('color','#a8a8a8');
+        });
+    });
+});
+ 
+</script>
+</body>
+</html>
