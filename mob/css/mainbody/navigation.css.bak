@@ -52,7 +52,7 @@ _top:0px;
 	display:inline;
 	float: left;
 	height: 46;
-	padding-left: 2%;	
+	padding-left: 1.5%;	
 }
 #homeNs{
 	background: #f7dbec;	
@@ -102,7 +102,7 @@ _top:0px;
 
 /*selected tabs*/
 #home{
-	background: #d9b8ef;	
+	background: #efb8d9;	
 	display:inline; 
 	float: right;
 	width: 17%;
@@ -149,7 +149,7 @@ _top:0px;
 
 /*hover tabs*/
 #homeNs:hover{
-	background: #e589c0;	
+	background: #e589c0;
 }
 #menuNs:hover{
 	background: #c089e5;	
@@ -158,10 +158,10 @@ _top:0px;
 	background: #93aaf5;	
 }
 #loginNs:hover{
-	background: #98ef8f;	
+	background: #edec8e;	
 }
 #activityNs:hover{
-	background: #edec8e;	
+	background: #98ef8f;	
 }
 
 
@@ -215,9 +215,7 @@ _top:0px;
 	width:30px;
 	height:25px
 }
-#logo:hover{
-	background:#999;
-}
+
 #tile{}
 #rightnav{float:right;
 margin-right:2px;}

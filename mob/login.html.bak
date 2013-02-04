@@ -82,7 +82,7 @@
                 <input type="password" class="text" data-watermark="Input"></br><br>
       <br><table width="100%"  align="center" style=" text-align:center;" border="0">
   <tr>
-    <td><a href="userpage.html"><div class="buttom_g">Login</div></a></td>
+    <td><a href="schedule.html"><div class="buttom_g">Login</div></a></td>
   </tr>
 </table>
 

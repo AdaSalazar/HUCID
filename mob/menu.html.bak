@@ -241,7 +241,7 @@ A perfect accompaniment for Rack of Lamb<img src="images/supportLine.png" alt=""
   
 </div>
  
-<script src='js/swipe.js'></script>
+<script src='swipe.js'></script>
 <script>
 new Swipe(document.getElementById('slider'));
 new Swipe(document.getElementById('slider2'));
