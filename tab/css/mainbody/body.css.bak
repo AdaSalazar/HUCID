@@ -76,7 +76,7 @@ ul,li{list-style-type:none;
 }
 
 
-/*hover tabs
+/*IT DIDNT WORK hover tabs
 .homeNs :click{
 	background: #efb8d9;	
 }

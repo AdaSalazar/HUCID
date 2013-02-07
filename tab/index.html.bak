@@ -110,7 +110,7 @@
                     </table>    
                     <div id='slider3' class='swipe p_listB'  style="width:98%">  
                       <ul> <br/>
-						<li>
+						<li style='display:block'>
                         <div class="p_list">              
                 <h3 align="center">Pamper...</h3>      
                 <DIV>             
@@ -126,7 +126,7 @@
                 </div>    
               </div>
               </li>    
-              <li>
+              <li style='display:block'>
               <div class="p_list">              <h3><strong>Memories</strong>...</h3>      
                 <DIV>                 
                   <img  class="list_img" src="images/P/2.PNG">
@@ -141,7 +141,7 @@
                 </div>    
               </div>
               </li>                 
-              <li>
+              <li style='display:block'>
               <div class="p_list">              
                 <h3 align="center">Discover...</h3>      
                 <DIV>             
@@ -157,7 +157,7 @@
                 </div>    
               </div>
               </li>        
-              <li>
+              <li style='display:block'>
               <div class="p_list">              
                 <h3 align="center">Celebrity Guest Speaker...</h3>      
                 <DIV>             
@@ -173,7 +173,7 @@
                 </div>    
               </div>
               </li>        
-              <li>
+              <li style='display:block'>
               <div class="p_list">              
                 <h3 align="center">Enjoy...</h3>      
                 <DIV>             
@@ -189,7 +189,7 @@
                 </div>    
               </div>
               </li>        
-              <li>          
+              <li style='display:block'>          
               <div class="p_list">            
                 <DIV>                             
                   <img  class="list_img" src="images/P/7.PNG">
@@ -302,7 +302,19 @@
                             </div>
                           </div>
                         </li>    
-
+                        <!-- SSSSSSSSSSSSSSSSSSSSSSS -->    
+                        <!-- SSSSSSSSSSSSSSSSSSSSSSS -->       
+                        <div style='display:none'>
+                          <div>5
+                          </div>
+                        </div>           
+                        <!-- SSSSSSSSSSSSSSSSSSSSSSS -->    
+                        <!-- SSSSSSSSSSSSSSSSSSSSSSS -->       
+                        <div style='display:none'>
+                          <div>5
+                          </div>
+                        </div>  
+                      </ul>  
                     </div>  
                   </div>                 
                   <!-- SSSSSSSSSSSSSSSSSSSSSSS -->                            

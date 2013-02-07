@@ -72,13 +72,7 @@
         </div>        
         <!--leftnav-->         
       </div> 
-	  <div id="warp">
-<table height="100%" width="85%">
-			 <tr>    <td>   	  
-      
-        <div class="post">
-          <!--item-->
-          <div id="header" style=" padding-right:10px;">
+	  <div id="warp"> <div id="header" style=" padding-right:10px;">
             <table width="85%" style="position:fixed; z-index:9999; background: url(images/bodyBg.jpg); margin:0 auto;;	-webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.6); 	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.6); 	box-shadow:0 0 10px rgba(0, 0, 0, 0.6);">                           
               <td width="72px" align="left">
                 <div id="bbt1" class="bbottom">Open
@@ -88,7 +82,13 @@
                 <div  id="bbt2" class="bbottom">Close
                 </div></td>  
               </tr>
-            </table>   
+            </table> 
+<table height="100%" width="85%">
+			 <tr>    <td>   	  
+      
+        <div class="post">
+          <!--item-->
+           
           </div>
           <img class="list_imgmid" src="images/supportLine.png" width="100%">             
           <div class="post">      
