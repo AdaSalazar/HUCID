@@ -70,12 +70,11 @@
           </table>
         </div>
         <!--leftnav-->  
-      </div>  <table height="100%" width="90%">
-			 <tr>    <td>       
+      </div> 
 		<div id="warp">
 			<div class="post">
 			  <!--item-->
-			  <div id="header">
+			         <div id="header">
 				<table width="80%" style="position:fixed; z-index:9999; background: url(images/bodyBg.jpg); margin:0 auto;;	-webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.6); 	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.6); 	box-shadow:0 0 10px rgba(0, 0, 0, 0.6);">                           
 				  <td width="72px" align="left">
 					<div id="bbt1" class="bbottom">Open All
@@ -86,9 +85,11 @@
 					</div></td>  
 				  </tr>
 				</table>   
-			  </div>         
+			  </div>  
 			</div>   <DIV>
 			  </DIV>
+               <table height="100%" width="85%" >
+			 <tr>    <td>       
 			<div class="post">      
 				<ul style="margin:40px 0">      
 				  <li>      

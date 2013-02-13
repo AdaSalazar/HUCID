@@ -1,0 +1,217 @@
+  
+<html>
+  <head>    
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">	
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">    
+    <title>Activity
+    </title>    
+<script src="js/jquery-latest.js" type="text/javascript"></script>
+    <link href="css/mainbody/body.css" rel="stylesheet" type="text/css">
+    <link href="css/mainbody/navigation.css" rel="stylesheet" type="text/css">
+    <link href="css/components/buttons.css" rel="stylesheet" type="text/css">
+    <link href="css/components/post.css" rel="stylesheet" type="text/css">
+    <link href="css/components/pictures.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  
+		  
+    <div id="warp">
+      <div id="topNavWrapper">  
+        <div id="header">  
+		<!--Top Menu-->	
+			<div id="topMenu">	
+				<a href="infor.html"> <div id="logoTop">
+					 <img src="images/icons/logo.png" width="40" height="45" alt="logo">	
+				</div>	</a>
+				<a  href="login.html"><div id="loginNs">
+						
+					<img src="images/icons/logout.png" width="30" height="30" alt="Logout">	<br /> Log in 	
+				</div>     	 	</a>
+				<a  href="activity.html"><div id="activity">
+						
+					<img src="images/icons/activity.png" width="30" height="30" alt="Activity"><br /> 	Activities 
+				</div></a>	  	
+				<a  href="opening.html"><div id="openingNs">
+					
+					<img src="images/icons/opening.png" width="30" height="30" alt="Opening"><br /> 	Opening 
+				</div></a>  	
+				<a  href="menu.html"><div id="menuNs">
+					
+					<img src="images/icons/menu.png" width="30" height="30" alt="Menu">	<br /> Menu
+				</div>		</a>
+				<a  href="index.html"><div id="homeNs">
+					
+					<img src="images/icons/home.png" width="30" height="30" alt="Home">	<br /> Home 
+				</div>	 </a>
+				   
+			</div>
+
+			
+          <div class="clear-float"></div>           
+        </div>
+        <!--header-->  
+      </div>     
+   
+<div id="contianer" >
+  <table width="100%" style="position:fixed; z-index:9999; background: url(images/bodyBg.jpg); margin:0 auto; top:50px;	-webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.6);
+	box-shadow:0 0 10px rgba(0, 0, 0, 0.6); z-index:1">
+   
+    
+                  <td width="19%" align="left">&nbsp;</td>
+    <td width="61%"><h2 align="center">My schedule</h2></td>
+    <td width="20%" align="right">&nbsp;</td>
+  </tr>
+</table>
+
+    
+    
+    <img class="list_imgmid" src="images/supportLine.png" width="100%">
+    
+    
+
+    <div class="post">
+      <ul style="margin:20px 0">
+        <!-- From 8am -->
+        <li>
+         
+      <div class="post-item section1">
+        
+        
+        <div id="section" >
+          <h2>8.00am - SOCIAL TENNIS</h2>
+          </BR>
+          <h3>Sports Nets (Deck 13) Aft</h3><p><a id="remove1" class="post_a">Remove&raquo;</a><p>
+          <p></p>
+        </div>
+      </div>
+      </li>
+		 <!-- From 10am -->
+          <li>
+            
+        <div class="post-item">
+          <div id="section">	
+			  <h2>10.00am - AURORA GRAND EVENT FORUM MEMBERS GET-TOGETHER</H2></BR><H3>Anderson's (Deck 7) Forward</h3><p><a class="post_a" href="list.html">Remove&raquo;</a><p>
+				</div>
+        </div>
+          </li>
+           <!-- From 12 -->
+         <li></li>
+		 <!-- From 2 -->
+        <li>
+			<div class="post-item">
+				 <div id="section">	
+					<h2>2:00pm - Dance Class With Alan and Ginny Newman</h2>
+					<p>Prepare for you rfirst Black Tie evening with the Social Foxtrot for beginnings, (Suitable foot wear should be worn).</p>
+					<h3>Carmen's (Deck 7) Aft</h3><p><a class="post_a" href="list.html">Remove&raquo;</a><p>
+				</div>
+
+			</div>
+		</li>
+			 
+		  <!-- From 4 -->
+          <li><div class="post-item">			    <div id="section">	
+				  <h2>3:30pm The Progressive Challenge</h2>
+					<p>Join Assistant Cruise Director Sara for a day one of this cruise-long sea day quiz where the points roll over each day.</p>
+					<h3>Champions (Deck 7) Aft</h3><p><a class="post_a" href="list.html">Remove&raquo;</a><p>
+				</div></div></li>
+		 <!-- From 10 -->
+         <li>
+		
+			<div class="post-item">
+			  <div id="section">	
+			    <h2>10:45pm - Film: The Artist</h2>
+					<p></p>
+					<h3>The Playhouse (Deck 8) Midship</h3><p><a class="post_a" href="list.html">Remove&raquo;</a><p>
+			  </div>
+		   </div>
+		</li>
+		 
+            
+    </ul>
+                
+            <!--item--><!--item-->
+    </div><!--post-->
+	</div><!--container-->
+	<div id="footer">
+    </div><!--footer-->
+</div><!--warp-->
+
+<script type="text/javascript">
+
+
+	$(document).ready(function(){
+
+	
+	var I = true;
+$("#bbt1").click(function (){
+$('.post-item').show();});
+	
+$("#remove1").click(function (){
+$('.section1').hide();});
+
+	$("#bbt2").click(function (){
+
+			$('.post-item').hide();
+
+				
+
+	});
+
+});
+
+
+
+	$('.nav').hide();
+	//I is a bool to check the menu is hiden or show
+	
+	$('#logo').click(function (){
+		
+		if (I == true)
+		{
+			$('.nav').show();
+			I=false;
+		}else
+		{
+			$('.nav').hide();
+			I=true;
+		}
+	});
+
+	$('#hide').click(function (){
+		$('.nav').hide();
+	});
+ //water-marke-text
+ $(document).ready(function () {
+    $(":input[data-watermark]").each(function () {
+        $(this).val($(this).attr("data-watermark"));
+        $(this).bind('focus', function () {
+            if ($(this).val() == $(this).attr("data-watermark")) $(this).val('');
+        });
+        $(this).bind('blur', function () {
+            if ($(this).val() == '') $(this).val($(this).attr("data-watermark"));
+            $(this).css('color','#a8a8a8');
+        });
+    });
+});
+ 
+ 
+ //
+ 
+  $(document).ready(function () {
+    $(":input[data-watermark]").each(function () {
+        $(this).val($(this).attr("data-watermark"));
+        $(this).bind('focus', function () {
+            if ($(this).val() == $(this).attr("data-watermark")) $(this).val('');
+        });
+        $(this).bind('blur', function () {
+            if ($(this).val() == '') $(this).val($(this).attr("data-watermark"));
+            $(this).css('color','#a8a8a8');
+        });
+    });
+});
+
+</script>
+
+</body>
+</html>

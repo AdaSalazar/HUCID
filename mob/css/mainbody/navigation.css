@@ -1,11 +1,12 @@
 #topNavWrapper {
-text-align: left;
-height:46px;
-margin: 0px auto;
-background:#036;
-z-index:100;
-_position: relative ;
-_top:0px;
+	text-align: left;
+	height: 50px;
+	margin: 0px auto;
+	background: #036;
+	z-index: 100;
+	_position: relative;
+	_top: 0px;
+	padding: 0px;
 }
 #header{
 	background:#fff;

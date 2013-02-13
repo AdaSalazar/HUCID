@@ -4,6 +4,12 @@
 	
 }
 
+a img
+			{ 
+				border:none;
+			}
+			
+
 .list_img
 {
 	-webkit-border-radius: 6px;

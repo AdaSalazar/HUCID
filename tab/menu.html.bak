@@ -25,7 +25,7 @@
                     <img src="images/icons/logo.PNG" width="50" height="50" alt="Logo">                  
                   </span>                                     
                   </li>			                                      
-                  <li class="homeNs">                                         
+                  <li class="home">                                         
                     <span>                      
                       <a href="index.html">                           
                         <div class="navpp">                          
@@ -33,7 +33,7 @@
                         </div></a>                                         
                     </span>                                     
                   </li>			                                      
-                  <li class="menu">                                         
+                  <li class="menuNs">                                         
                     <span>                      
                       <a href="menu.html">                           
                         <div class="navpp">                               
